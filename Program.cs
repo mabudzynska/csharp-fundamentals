@@ -1,16 +1,27 @@
 ﻿using System;
+using System.Net.NetworkInformation;
 
-namespace HelloWorld
+namespace CSharpFundamentals
 {
+    public class Person
+    {
+        public string FirstName;
+        public string LastName;
+
+        public void Introduce()
+        {
+            Console.WriteLine("My name is " + FirstName + " " + LastName);
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
-            byte number = 2;
-            int count = 10;
-            float totalPrice = 20.95f;
-
-            Console.WriteLine(number);
+            var john = new Person();
+            john.FirstName = "John";
+            john.LastName = "Smith";
+            john.Introduce();
         }
     }
 }
