@@ -1,4 +1,4 @@
-# HelloWorld
+# CSharpFundamentals
 
 This repository contains a simple C# console project created as a practice exercise to refresh previously acquired C# skills developed during academic studies. The goal is to revisit core language concepts and become familiar again with the development workflow, including project structure, building, and version control.
 
